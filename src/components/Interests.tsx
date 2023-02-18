@@ -22,7 +22,6 @@ const Interests = () => {
                 })
             }
         </ul>
-
     </div>
   )
 }
