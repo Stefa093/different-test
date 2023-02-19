@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 @tailwind base;
@@ -16,18 +16,42 @@ body {
 
 @layer components {
   .title-section-template {
-    @apply text-2xl mt-4 font-semibold
+    @apply text-lg mt-4 font-semibold pb-3;
   }
 
   .title-section-side {
-    @apply text-2xl mt-4 font-semibold text-red-500
+    @apply text-sm mt-4 font-semibold text-red-500 pb-3 hover:underline;
   }
 
   .text-section {
-    @apply font-normal text-2xl text-zinc-700
+    @apply font-normal text-sm text-zinc-700;
   }
 
   .highlighted-type {
-    @apply border-2 rounded-md border-red-500 font-semibold text-red-500 text-2xl
+    @apply border-2 rounded-md border-red-500 font-semibold text-red-500 text-sm text-center;
+  }
+
+  .btn-1 {
+    @apply text-[26px] rounded-full bg-white w-16 h-16 shadow-xl text-amber-600 pt-5 font-semibold hover:-translate-y-1 hover:bg-orange-200 duration-300;
+  }
+
+  .btn-2 {
+    @apply text-[40px] rounded-full bg-red-500 w-20 h-20 shadow-lg shadow-red-300 text-white pt-5 hover:-translate-y-2 hover:brightness-150 duration-300;
+  }
+
+  .btn-3 {
+    @apply text-[26px] rounded-full bg-white w-16 h-16 shadow-xl text-purple-800 pt-5 hover:-translate-y-1 hover:bg-violet-300 duration-300;
+  }
+
+  .arrow-1 {
+    @apply absolute text-2xl top-8 left-8 cursor-pointer text-white rounded-xl border border-slate-200 bg-slate-300 bg-opacity-50 py-1 px-2 hover:opacity-70 hover:scale-95 duration-200;
+  }
+
+  .pics {
+    @apply hover:scale-95 hover:opacity-80 duration-200;
+  }
+
+  .plane {
+    @apply w-12 text-2xl cursor-pointer text-red-500 border-2 rounded-xl border-gray-200 text-center pt-2 hover:scale-150 hover:brightness-110 ease-in duration-300;
   }
 }

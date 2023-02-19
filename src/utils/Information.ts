@@ -11,7 +11,7 @@ const information = {
         city: 'Chicago',
         country: 'United States'
     },
-    about: "My name is Jessica Parker and I enjoy meeting new people and finding ways to help them have an uplifting experience. I enjoy reading." ,
+    about: "My name is Jessica Parker and I enjoy meeting new people and finding ways to help them have an uplifting experience. I enjoy reading..." ,
 }
 
 export default information

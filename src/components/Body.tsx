@@ -5,7 +5,7 @@ import Interests from "./Interests";
 
 const Body = () => {
   return (
-    <section className="relative -top-16 bg-white rounded-[30px] w-full px-6 pt-10">
+    <section className="relative -top-12 bg-white rounded-[20px] w-full px-8 pt-16">
       <Information />
       <Interests />
       <Gallery />
