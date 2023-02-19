@@ -20,7 +20,7 @@ body {
   }
 
   .title-section-side {
-    @apply text-sm mt-4 font-semibold text-red-500 pb-3 hover:underline;
+    @apply text-sm mt-4 font-semibold text-red-500 pb-3 hover:underline ease-linear duration-500;
   }
 
   .text-section {

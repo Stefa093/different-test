@@ -15,7 +15,7 @@ const Interests = () => {
             {
                 interests.map(({id, text, highlighted} : MapParameter)=> {
                     if (highlighted) {
-                        return <li className='highlighted-type py-1' key={id}><i className='bx bx-check-double'></i>{text}</li>
+                        return <li className='highlighted-type py-1' key={id}><i className='bx bx-check-double'></i> {text}</li>
                     } else {
                         return <li key={id} className='text-sm border-2 rounded-md border-gray-200 text-center py-1'>{text}</li>
                     }                    
